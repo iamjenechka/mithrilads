@@ -1,3 +1,8 @@
+* {
+	padding:0;
+	margin: 0;
+}
+
 html {
 	height: 100%;
 }
@@ -6,11 +11,16 @@ body {
  /*	background-color: #20C2E8; */
 	background-image: url(' ../img/background.png');
 	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
 }
 
 #wrapper {
 	margin: 0 auto;
-	width:1000px;
+	width:700px;
+	min-height: 100%;
+	height: auto!important;
+	margin-bottom: -50px;
 }
 
 #content {
@@ -39,6 +49,7 @@ body {
 #form {
 	padding-top: 50px;
 	width:348px;
+	height: 350px;
 	margin: 0 auto;
 	display: block;
 	
@@ -95,3 +106,63 @@ input.text {
 	outline:none;
 	color:#20C2E8;
 }
+
+#content {
+	position: relative;
+}
+footer {
+	margin: 0 auto;
+	padding:20px;
+	overflow:hidden;
+	min-height:55px;
+	display:block;
+	width: 350px;
+}
+
+.copyright {
+	background:url(../img/c.png) no-repeat;
+	height: 10px;
+	width: 160px;
+	float: left;
+	margin-top: 10px;
+}
+#socialnetworks a{
+	display: block;
+	padding-left: 10px;
+	padding-bottom:10px;
+	float: right;
+}
+
+a.face{
+
+	background:url(../img/facebook.png) no-repeat;
+	width: 18px;
+	height: 30px;
+
+}
+/*
+a.face:hover{
+
+	background:url(../img/facebook_on.png) no-repeat;
+	width: 18px;
+	height: 30px;
+
+}
+
+*/
+/*
+a.in:hover{
+
+	background:url(../img/in_on.png) no-repeat;
+	width: 18px;
+	height: 30px;
+
+}
+
+*/
+a.in{
+	background:url(../img/in.png) no-repeat;
+	height: 18px;
+	width: 30px;
+}
+
