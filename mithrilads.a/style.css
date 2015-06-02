@@ -1,0 +1,159 @@
+* {
+	margin:0;
+}
+
+body,
+#social {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	background: #26c3e7;
+background-image:url('./images/noise.jpg'); 
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	height: 100%;
+}
+
+html { 
+	min-height:100%;
+}
+
+#cell {
+	width: 367px;
+	margin: 0 auto;
+	height: 589px;
+	text-align: center;
+}
+
+header {
+	height: 250px;
+	width: 367px;
+margin-left:1px;
+margin-top:12px;
+	margin-bottom:26px;
+}
+
+#logo a {
+	display: block;
+}
+
+section {
+	padding: 10px 10px 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.aligncenter {
+	margin: 15px auto;
+}
+
+section p {
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+form input {
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding: 20px 25px;
+	width: 297px;
+
+	border: 1px solid #b1dbf5;
+	margin: 0 0 25px;
+	-webkit-appearance: none;
+}
+
+form input[type="text"] {
+	color: #fff;
+	background: none;
+	outline: none;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+form input[type="text"]:hover {
+	border-color: #fff;
+}
+
+form input[type="text"]::-webkit-input-placeholder {
+	color: #fff;
+}
+
+form input[type="text"]:-moz-placeholder {
+	color: #fff;
+}
+
+form input[type="submit"] {
+	background: #fff;
+	text-align: center;
+	color: #1fc1e7;
+	padding: 16px 25px 15px;
+	width: 349px;
+	font-size: 21px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background: none;
+	color: #fff;
+	border-width: 2px;
+border-color:#fff;
+	padding: 15px 20px 14px;	
+}
+
+footer {
+	height: 36px;
+	width: 347px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+footer p {
+	
+	color: #90e1f4;
+	font-size: 12px;
+	float: left;
+}
+
+#social {
+	float: right;
+}
+
+#social li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: -8px;
+}
+
+#social li a {
+	display: block;
+	width: 28px;
+	height: 28px;
+}
+
+#social li a.facebook {
+	background: url(images/facebook.png);
+}
+
+#social li a.in {
+	background: url(images/in.png);
+}
+
+#social li a.vk{
+	background: url(images/vk.png);
+}
+
+#social li a:hover {
+	background-position: 0 28px;
+}
